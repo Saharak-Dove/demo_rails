@@ -1,0 +1,4 @@
+<% @users.each_with_index do |user, index| %>
+  <%= "#{index + 1} #{user.email}"  %>
+<% end %>
+<%= link_to root_path, class: 'btn' %>
